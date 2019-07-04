@@ -1,6 +1,6 @@
 class Pirate
   attr_reader :name, :weight, :height
-  @@all=[]
+  pirates =[]
 
   def initialize(params)
     @name = params[:name]
@@ -10,6 +10,6 @@ class Pirate
   end
 
   def self.all
-    @@all
+    pirates
   end
 end
